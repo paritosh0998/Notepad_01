@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    /* color: rgb(65, 30, 30); */
+    /* color: rgb(35, 24, 24); */
+    color:  rgb(57, 11, 11);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 100px large;
+    /* font-family: 'Courgette', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Gravitas One', cursive; */
+font-family: 'Kaushan Script', cursive;
+/* font-family: 'Oleo Script', cursive; */
+text-shadow: 2px 2px 50px beige ;
+/* font-family: 'Open Sans', sans-serif; */
+}
+h1:hover{
+    /* color: lightgoldenrodyellow; */
+    /* text-shadow:lightgoldenrodyellow ; */
+    /* color: rgb(147, 88, 0) ; */
+    /* color: rgb(255, 255, 196); */
+    color: brown;
+    text-shadow: 5px 5px 70px black;
+    transition: 0.5s;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* 100% of the viewport height */
+    text-align: center; /* Center-align contents inside container */
+     background: url("https://wallpapercave.com/wp/wp5608259.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid  rgb(65, 30, 30);
+    box-shadow: inset 2px 2px 20px rgba(65, 30, 30);
+
+
+}
+
+/* Style the text area */
+#textInput {
+    /* margin-top: 3px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 35%;
+    height: 60%;
+    padding: 52px;
+    margin: 10px;
+    /* border:  solid grey; */
+    border-radius: 10px;
+    ;
+     background: url("https://th.bing.com/th/id/OIP.LiK4pj-OfeHXeKYA3W-scQHaNJ?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover; 
+    background-position: center center;
+     background-repeat: no-repeat;
+     background: width 100% height ;
+     background: height 400px;
+    color:  black;
+    /* border: 3px solid  rgb(65, 30, 30); */
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: inset 2px 2px 20px rgba(65, 30, 30);
+    transition: 0.5px;
+/* font-family: 'Open Sans', sans-serif; */
+
+}
+#textInput:hover{
+    border:2px solid rgb(65, 30, 30);
+    transition: 0.5px;
+}
+
+ 
+
+/* Style the buttons */
+#saveButton,
+#clearButton {
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 15px;
+    background-color: rgb(79, 11, 11);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#saveButton:hover,
+#clearButton:hover {
+    background-color: burlywood;
+    color:rgb(57, 11, 11);
+}
+
+/* Style the display area */
+#displayArea {
+    text-align: center;
+    margin-top: 7px;
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 10px;
+    padding: 10px;
+}
